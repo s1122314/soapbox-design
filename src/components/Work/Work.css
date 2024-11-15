@@ -1,0 +1,66 @@
+.work-container {
+    margin-top: 15vh;
+    position: relative; 
+    left: 0px; 
+    height: 333px; 
+    background: transparent linear-gradient(90deg, #FFDA00 0%, #FC6E3E 100%) 0% 0% no-repeat padding-box;
+    box-shadow: inset 0px 3px 6px #00000029; 
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    color: #fff; 
+  }
+  
+  .work-container h2 {
+    font-size: 70px; 
+    margin-bottom: 10px; 
+    letter-spacing: 3.5px;
+    text-shadow: 0px 3px 6px #00000029;
+    line-height: 1.2; 
+    padding-bottom: 30px;
+    margin-top: 0;
+  }
+
+  .highlight-work {
+    display: block; 
+  }
+
+    .work-button {
+    position: relative;
+    top: 0; 
+    width: 252px; 
+    height: 44px; 
+    background: #FFFFFF;
+    box-shadow: 0px 0px 17px #00000030; 
+    opacity: 1;
+    border: none; 
+    border-radius: 5px; 
+    letter-spacing: 0.48px; 
+    color: #ffc000; 
+    font-weight: 1000;
+    text-align: center; 
+    text-shadow: 0px 0px 17px #00000030; 
+    cursor: pointer; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    transition: all 0.3s ease; 
+    }
+
+    .work-button:hover {
+    background: #FC6E3E ; 
+    color: #ffffff; 
+    }
+
+    .triangle-icon {
+        height: 30px;
+    }
+
+    @media (max-width: 550px) {
+      .work-container h2 {
+        font-size: 50px;
+      }
+    }
